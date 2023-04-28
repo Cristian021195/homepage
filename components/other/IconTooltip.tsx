@@ -9,7 +9,7 @@ interface IProps{
 
 export const IconTooltip = ({title = "Project", img="https://cristian021195.github.io/portfolio/img/favicon.svg", hover="hithere"}:IProps) => {
   return (
-    <button className="tt-c" data-position="bottom">
+    <button className="tt-c no-select" data-position="bottom">
         <Image src={img} alt="colores" width={60} className={hover} height={60}/>
         <span className="toolTip"><a href={img} target='_blank' className='white-0'>{title}</a></span>
     </button>
