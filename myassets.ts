@@ -38,7 +38,43 @@ import es4 from './public/images/projects/escritos/Screenshot_20230330-162254.pn
 import es5 from './public/images/projects/escritos/Screenshot_20230330-162343.png'
 import es6 from './public/images/projects/escritos/Screenshot_20230330-162352.png'
 
+import nt1 from './public/images/projects/notas/Screenshot_20221221-153023.png'
+import nt2 from './public/images/projects/notas/Screenshot_20221221-153035.png'
+import nt3 from './public/images/projects/notas/Screenshot_20221221-153041.png'
+
+import ra1 from './public/images/projects/radio/main.webp'
+import ra2 from './public/images/projects/radio/Screenshot_20230330-162520.png'
+import ra3 from './public/images/projects/radio/Screenshot_20230330-162526.png'
+import ra4 from './public/images/projects/radio/Screenshot_20230330-162537.png'
+import ra5 from './public/images/projects/radio/Screenshot_20230330-162544.png'
+
+import lc1 from './public/images/projects/listacompras/Screenshot_20230330-162629.png'
+import lc2 from './public/images/projects/listacompras/Screenshot_20221221-153133.png'
+import lc3 from './public/images/projects/listacompras/screenshot_1.webp'
+
+import pn1 from './public/images/projects/panerita/Screenshot_20221221-152941.webp' 
+import pn2 from './public/images/projects/panerita/login.webp'
+import pn3 from './public/images/projects/panerita/main.webp'
+import pn4 from './public/images/projects/panerita/more.webp'
+import pn5 from './public/images/projects/panerita/phone.webp'
+import pn6 from './public/images/projects/panerita/phone-login.webp'
+import pn7 from './public/images/projects/panerita/profile.webp'
+
+import cmain from './public/main.svg'
+import faqmain from './public/faq-main.svg'
 import pmain from './public/portfolio-main.svg'
+import privmain from './public/privacy-main.svg'
+import smain from './public/services-main.svg'
+import design from './public/web-design.svg'
+import logos from './public/logos-services.svg'
+import statics from './public/static-web-services.svg'
+import wordpress from './public/wordpress-services.svg'
+import dynamic from './public/dynamic-web-services.svg'
+import mantenience from './public/mantenience-services.svg'
+import webapp from './public/web-application-services.svg'
+import apirest from './public/api-rest-services.svg'
+import polmain from './public/policy-main.svg'
+import error from './public/404.svg'
 
 export const horabondi = [ hb1,hb2,hb3,hb4,hb5,hb6,hb7,hb8 ];
 export const romano = [ rm1,rm2,rm3,rm4,rm5,rm6,rm7,rm8 ];
@@ -46,7 +82,18 @@ export const horabondi_beta = [ hbb1,hbb2,hbb3,hbb4,hbb5 ];
 export const colores = [ cl1,cl2,cl3 ];
 export const climap = [ cm1,cm2,cm3,cm4 ];
 export const escritos = [ es1,es2,es3,es4,es5,es6 ];
+export const notas = [ nt1,nt2,nt3 ];
+export const radioapp = [ ra1,ra2,ra3,ra4,ra5 ];
+export const listacompras = [ lc1,lc2,lc3 ];
+export const panerita = [pn1,pn2,pn3,pn4,pn5,pn6,pn7];
 
-export const portfolio_main = {
-    pmain
-}
+
+
+
+
+export const portfolio_main = { pmain }
+export const faq_images = { faqmain }
+export const privacy_images = { privmain }
+export const services_images = { smain, design, logos, statics, wordpress, dynamic, mantenience, apirest, webapp }
+export const terms_images = { polmain, error }
+export const contact_images = { cmain }
