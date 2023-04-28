@@ -44,7 +44,7 @@ const myFont = localFont({ src: '../fonts/PTSans-Regular.woff2' })
 */
 
 export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMetaTagsRFC) => {
-  return (//<link rel="icon" href="/logos/favico.svg" sizes="any" type="image/svg+xml"/> <link rel="apple-touch-icon" href="/favicon.ico" />
+  return (//
     <>
         <Head>
             <title>{title}</title>            
@@ -62,7 +62,9 @@ export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMet
             <meta name="msapplication-TileColor" content="#00838F" />
             <meta name="msapplication-tap-highlight" content="no" />
             <meta name="theme-color" content="#00838F" />
-            <link rel="icon" href="/logos/logo-15.svg" />
+            <link rel="icon" href="/logos/logo-16.svg" />
+            <link rel="icon" href="/logos/logo-16.svg" sizes="any" type="image/svg+xml"/>
+            <link rel="apple-touch-icon" href="/logos/logo-16.svg" />
             
             
             
