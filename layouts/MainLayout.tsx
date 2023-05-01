@@ -49,7 +49,7 @@ export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMet
         <Head>
             <title>{title}</title>            
             <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="application-name" content="Cristian Gramajo Website" />
             <meta name="apple-mobile-web-app-capable" content="yes" />
             <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -62,12 +62,9 @@ export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMet
             <meta name="msapplication-TileColor" content="#00838F" />
             <meta name="msapplication-tap-highlight" content="no" />
             <meta name="theme-color" content="#00838F" />
-            <link rel="icon" href="/logos/logo-16.svg" />
-            <link rel="icon" href="/logos/logo-16.svg" sizes="any" type="image/svg+xml"/>
-            <link rel="apple-touch-icon" href="/logos/logo-16.svg" />
-            
-            
-            
+            <link rel="icon" href="/logos/logo-15.svg" />
+            <link rel="icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml"/>
+            <link rel="apple-touch-icon" href="/logos/logo-15.svg" />
             
             <link rel="mask-icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml" color="#00838F" />
             
