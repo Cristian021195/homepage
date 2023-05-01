@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 const myFont = localFont({ src: '../../fonts/PTSans-Regular.woff2' })
 export const Footer = () => {
     const router = useRouter();
-    console.log(router.asPath)
   return ( // router.asPath === '/' ? 'col-12 col-md-4 col-sm-6 bg-cyan-0 white-0 p-5' : 'col-12 col-md-4 col-sm-6 p-5'
     <footer className={router.asPath === '/' ? myFont.className+' container-fluid' : myFont.className+' container-fluid'}>
         <div className="row">
