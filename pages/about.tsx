@@ -32,7 +32,7 @@ export default function About() {
           <section className="d-flex flex-wrap mt-5 justify-content-center">
               <div className="custom-grid col-12 offset-md-2 col-md-8">
                   <div id="caja5">
-                      <Image src="/images/vertical.webp" alt="vertical" height={400} width={200} className='br-0 hover-individual' style={{objectFit:'contain'}}/>
+                      <Image priority={true} src="/images/vertical.webp" alt="vertical" height={400} width={200} className='br-0 hover-individual' style={{objectFit:'contain'}}/>
                   </div>
                   <div id="caja6" style={{backgroundImage: "url('/images/horizontal.webp')", backgroundRepeat: "no-repeat", backgroundSize: 'cover'}} className="p-3 hover-individual">
                   </div>

@@ -37,9 +37,9 @@ export default function Colores() { // yarn remove react-grid-gallery
               </div>
               
               <div className="d-flex overflow-x h-scroll p-2 overflow-y gap-1 my-4 view-gallery br-1">
-                <SquareImg alt='Photo' src={colores[2]}  />
-                <SquareImg alt='Photo' src={colores[0]}  />
-                <SquareImg alt='Photo' src={colores[1]}  />
+                <SquareImg prior={true} alt='Photo' src={colores[2]}  />
+                <SquareImg prior={true} alt='Photo' src={colores[0]}  />
+                <SquareImg prior={true} alt='Photo' src={colores[1]}  />
                 <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
               <div>

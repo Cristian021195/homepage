@@ -18,16 +18,16 @@ export default function Portfolio() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-            <Image src={portfolio_main.pmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+            <Image priority={true} src={portfolio_main.pmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           
           <div className='col-md-10 offset-md-1 py-0 fade-up'>
             <h2 className='fs-2 p-4'>Web Projects</h2>
             <div className="d-flex gap-10 horizontal-sm h-scroll p-2">
-              <Card bgTop='#00838f38' title='Horabondi' desc='Web App for bus schedule and prices' link='/portfolio/horabondi' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi.svg'} maxWidth={240}/>
-              <Card bgTop='#a14b3240' title='Panerita' desc='Web system for stock, sales, clients, users, and printing analytics' link='/portfolio/panerita' image={'https://cristian021195.github.io/portfolio/img/svg/panerita.svg'} maxWidth={240}/>
-              <Card bgTop='#ffe98f4f' title='Notas' desc='Note web app offline' link='/portfolio/notas' image={'https://cristian021195.github.io/portfolio/img/svg/notas.svg'} maxWidth={240}/>
+              <Card prior={true} bgTop='#00838f38' title='Horabondi' desc='Web App for bus schedule and prices' link='/portfolio/horabondi' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi.svg'} maxWidth={240}/>
+              <Card prior={true} bgTop='#a14b3240' title='Panerita' desc='Web system for stock, sales, clients, users, and printing analytics' link='/portfolio/panerita' image={'https://cristian021195.github.io/portfolio/img/svg/panerita.svg'} maxWidth={240}/>
+              <Card prior={true} bgTop='#ffe98f4f' title='Notas' desc='Note web app offline' link='/portfolio/notas' image={'https://cristian021195.github.io/portfolio/img/svg/notas.svg'} maxWidth={240}/>
               <Card bgTop='#a6d5fa8c' title='Climap' desc='Wheather and Location app' link='/portfolio/climap' image={'https://cristian021195.github.io/portfolio/img/svg/climap.svg'} maxWidth={240}/>
               <Card bgTop='#e6a52e47' title='Romano' desc='Nice web page for a bar' link='/portfolio/romano' image={'https://cristian021195.github.io/portfolio/img/svg/romano.svg'} maxWidth={240}/>
               <Card bgTop='#f1f1f1' title='Escritos' desc='Poems web app' link='/portfolio/escritos' image={'https://cristian021195.github.io/portfolio/img/svg/escritos.svg'} maxWidth={240}/>

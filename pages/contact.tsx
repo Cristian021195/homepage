@@ -20,7 +20,7 @@ export default function Contact() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-            <Image src={contact_images.cmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+            <Image priority={true} src={contact_images.cmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           <div className="col-lg-12 col-md-10 offset-md-1 offset-lg-0 mb-5 px-1 contact-form">

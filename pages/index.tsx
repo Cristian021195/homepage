@@ -16,7 +16,7 @@ export default function Home() {
                   <div id="caja2" style={{backgroundImage: "url('/images/horizontal.webp')", backgroundRepeat: "no-repeat", backgroundSize: 'cover'}} className="p-3 hover-individual br-0">
                   </div>
                   <div id="caja3">
-                      <Image src="/images/vertical.webp" alt="vertical" height={400} width={200} className='br-0 hover-individual' style={{objectFit:'contain'}}/>
+                      <Image priority={true} src="/images/vertical.webp" alt="vertical" height={400} width={200} className='br-0 hover-individual' style={{objectFit:'contain'}}/>
                   </div>
                   <div id="caja4" className="p-3">
                       <h2 className='fs-2'>Hello there, I'm Cristian.</h2>

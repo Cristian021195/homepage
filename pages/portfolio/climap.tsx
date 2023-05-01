@@ -17,11 +17,11 @@ export default function Climap() { // yarn remove react-grid-gallery
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Climap'>
               <div>
-              <p className=''>
-                It is a React PWA, with a very simple design, using the React Router library and hosted on Firebase, 
-                it makes use of the Openweathermap and Mapbox APIs. Made with React JS, and CSS, this application was made for testing purposes.<br /><br />
-              <br />
-              <i><b>Application delivered time: </b>4 days</i><br /></p>
+                <p>
+                  It is a React PWA, with a very simple design, using the React Router library and hosted on Firebase, 
+                  it makes use of the Openweathermap and Mapbox APIs. Made with React JS, and CSS, this application was made for testing purposes.<br /><br />
+                <br />
+                <i><b>Application delivered time: </b>4 days</i><br /></p>
               </div>
               <div className='mt-5'>
                 <a className="btn p-2 bg-pink-0" target='_blank' href='https://climap-6e45e.web.app/'>¡Try It!</a>
@@ -37,9 +37,9 @@ export default function Climap() { // yarn remove react-grid-gallery
               </div>
               
               <div className="d-flex overflow-x h-scroll p-2 overflow-y gap-1 my-4 view-gallery br-1">
-                <SquareImg alt='Photo' src={climap[0]}  />
-                <SquareImg alt='Photo' src={climap[1]}  />
-                <SquareImg alt='Photo' src={climap[2]}  />
+                <SquareImg prior={true} alt='Photo' src={climap[0]}  />
+                <SquareImg prior={true} alt='Photo' src={climap[1]}  />
+                <SquareImg prior={true} alt='Photo' src={climap[2]}  />
                 <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
               <div>

@@ -18,17 +18,17 @@ export default function Services() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-            <Image src={services_images.smain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+            <Image priority={true} src={services_images.smain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           <div className='offset-md-0 d-flex gap-5 justify-content-center flex-wrap fade-up'>
-            <ServiceContainer
+            <ServiceContainer prior={true}
               src={services_images.design}
               title='Web & Mail Design'
               desc='Bring a website to life in terms of design and good looking is crucial for get clients attention, the sizes, combination of colors, fonts and templates matters a lot and changes according to the product idea.'
               orientation='left' link='web-design'
             />
-            <ServiceContainer
+            <ServiceContainer prior={true}
               src={services_images.logos}
               title='Logos & Logo Animations'
               desc='Bring life to you already existing projects, an Logo gives you a strong first impression and is memorable. Animations makes people realize that is hard work in background and details matters. A brand means everything for you enterprise.'

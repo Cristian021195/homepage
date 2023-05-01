@@ -26,7 +26,8 @@ export interface ICard extends IReactComponentChild{
     target?: '_blank' | '_top' |'_parent' | '_self',
     alt?:string,
     children?: React.ReactNode
-    animate?:string
+    animate?:string,
+    prior?:boolean
 }
 
 export interface ISquareImg extends IReactComponentChild{
@@ -39,7 +40,8 @@ export interface IServiceContainer extends IReactComponentChild{
     desc:string,
     src?:string,
     link?:string,
-    orientation?: 'left' | 'right'
+    orientation?: 'left' | 'right',
+    prior?:boolean
 }
 
 export interface IFaqProps extends IReactComponentChild{

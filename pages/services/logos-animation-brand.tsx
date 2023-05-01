@@ -20,7 +20,7 @@ export default function LogosAnimationBrand() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-              <Image src={services_images.logos} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+              <Image priority={true} src={services_images.logos} alt='Contact Image' sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           <div className='col-md-12 col-lg-12 d-flex fade-up'>

@@ -44,9 +44,9 @@ export default function HorabondiBeta() { // yarn remove react-grid-gallery
               </div>
               
               <div className="d-flex overflow-x h-scroll p-2 overflow-y gap-1 my-4 view-gallery br-1">
-                <SquareImg alt='Photo' src={horabondi_beta[0]}  />
-                <SquareImg alt='Photo' src={horabondi_beta[1]}  />
-                <SquareImg alt='Photo' src={horabondi_beta[2]}  />
+                <SquareImg prior={true} alt='Photo' src={horabondi_beta[0]}  />
+                <SquareImg prior={true} alt='Photo' src={horabondi_beta[1]}  />
+                <SquareImg prior={true} alt='Photo' src={horabondi_beta[2]}  />
                 <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
               <div>
