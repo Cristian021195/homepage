@@ -24,7 +24,7 @@ export const Header = () => {
               <li><ActiveLink alias='About Me' anchor='/about' active='menu'/></li>
               <li><ActiveLink alias='Contact' anchor='/contact' active='menu'/></li>
           </ul>
-          <button className='btn d-md-none' onClick={()=>setOpen(!open)}>
+          <button type='button' className='btn d-md-none' onClick={()=>setOpen(!open)}>
             <MenuIcon width={36} height={36}/>
           </button>
       </header>
