@@ -12,11 +12,9 @@ export default function Wordpress() {
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Wordpress'>
               <article className='mt-5 lh-1'>
-                <p>As a web designer's my job is less about using code and tools to bring a website to life.</p>
-                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge 
-                  and tools to create mockups, prototyping, and templates when designing a site. </p>
-                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending
-                  A better looking will give you more seriousness, and professionalism, cliets love it</p>
+                <p>Work with this CMS is a really quick solution to the common requirements out there.</p>
+                <p>Allowing you to easily create and manage websites and blogs. It offers a user-friendly interface, a wide range of themes and plugins to customize.</p>
+                <p>You can put your store in a really short time and offer your products to the world.</p>
               </article>
             </MainDesc>
           </div>
@@ -37,14 +35,14 @@ export default function Wordpress() {
               <ServiceCard title='Medium Plan' alt='Medium Plan' image='https://cristian021195.github.io/portfolio/img/others/wordpress-pro.svg'>
                   <div className='lh-1'>
                     <p>For independent professionals, medium-sized institutions and companies.</p>
-                    <p>Many sections as you need, with control panel</p>
+                    <p>Many sections as you need, with control panel.</p>
                     <p>Server and domain expenses by the client.</p>
                   </div>
               </ServiceCard>
               <ServiceCard title='Pro Plan' alt='Medium Plan' image='https://cristian021195.github.io/portfolio/img/others/wordpress-med.svg'>
                   <div className='lh-1'>
                     <p>For independent professionals, medium-sized institutions and companies.</p>
-                    <p>Many sections as you need, with control panel, integrations (woocomerce, paypal, etc.)</p>
+                    <p>Many sections as you need, with control panel, integrations (woocomerce, PayPal, etc.)</p>
                     <p>Server and domain expenses by the client.</p>
                   </div>
               </ServiceCard>

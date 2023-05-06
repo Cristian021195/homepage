@@ -13,9 +13,8 @@ export default function LogosAnimationBrand() {
             <MainDesc title='Logos & Logo Animations'>
               <article className='mt-5 lh-1'>
                 <p>A good logo grabs attention, makes a strong first impression, is the foundation of your brand identity, is memorable, separates you from competition, ending to foster brand loyalty.</p>
-                <p>By a previous analysis of your business or product i make some monocrome previews of your logo, then pick the corresponding colors.<br />
-                 Once  you logo is ready i can add some animations if you need it like custom loaders.</p>
-                <p>If you already have a logo and want to make animations for it i can make it too</p>
+                <p>By a previous analysis of your business or product I make some monochrome previews of your logo, then pick the corresponding colors. <br />Once you logo is ready I can add some animations if you need it like custom loaders.</p>
+                <p>If you already have a logo and want to make animations for it, I can make it too.</p>
               </article>
             </MainDesc>
           </div>
@@ -28,15 +27,15 @@ export default function LogosAnimationBrand() {
               <ServiceCard alt='Logo Design' title='Logo Design' 
                  image='https://cristian021195.github.io/portfolio/img/others/logos-prev.svg'>
                   <div className='lh-1'>
-                    <p>No matter if you hava a website, app, or just a simple bussiness, a logo always is a good reminder to your clients for who you are.</p>
-                    <p>This service youre gonna have the final product and the project if you want it.</p>
+                    <p>No matter if you have a website, app, or just a simple business, a logo always is a good reminder to your clients for who you are.</p>
+                    <p>This service you’re going to have the final product and the project if you want it.</p>
                   </div>
               </ServiceCard>
               <ServiceCard alt='Logo animation' title='Logo animation' image='https://cristian021195.github.io/portfolio/img/logos/clogo3.svg' animate='gelatine'>
                   <div className='lh-1'>
-                    <p>This service normally hire people who already have a website, app,or just a brand, and want to add an extra</p>
-                    <p>Depending of the need an complexity the price differs</p>
-                    <p>If its web making use of css as far is possible, or a lottie file project, giving you the final product and then project</p>
+                    <p>This service normally hires people who already have a website, app, or just a brand, and want to add an extra.</p>
+                    <p>Depending of the need a complexity the price differs.</p>
+                    <p>If its web making use of CSS as far is possible, or a Lottie file project, giving you the final product and then Project.</p>
                   </div>
               </ServiceCard>
             </section>            

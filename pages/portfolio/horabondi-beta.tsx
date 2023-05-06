@@ -22,14 +22,12 @@ export default function HorabondiBeta() { // yarn remove react-grid-gallery
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Horabondi beta'>
-              <div>
-              <p className=''>
-              It's beta version of HoraBondi, made entirely in PHP and Vanilla JS. a PWA focused in offline usage. Handling admin users, bus schedule and pricing travels. <br />
-              This application was made for testing purposes.<br /><br />
-              </p>
+              <article className="mt-5 lh-1">
+              <p>It's beta version of HoraBondi, made entirely in PHP and Vanilla JS. a PWA focused in offline usage. Handling admin users, bus schedule and pricing travels. </p>
+              <p>This application was made for testing purposes.</p>
               <br />
               <i><b>Application delivered time: </b>4 months</i>
-              </div>
+              </article>
               <div className='mt-5'>
                 <a className="btn p-2 bg-pink-0" target='_blank' href='https://cristian021195.github.io/notas/'>¡Try It!</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/horabondi-beta'>Go to repository</a>
@@ -43,12 +41,15 @@ export default function HorabondiBeta() { // yarn remove react-grid-gallery
                 <h3>Gallery</h3>
               </div>
               
-              <div className="d-flex overflow-x h-scroll p-2 overflow-y gap-1 my-4 view-gallery br-1">
-                <SquareImg prior={true} alt='Photo' src={horabondi_beta[0]}  />
-                <SquareImg prior={true} alt='Photo' src={horabondi_beta[1]}  />
-                <SquareImg prior={true} alt='Photo' src={horabondi_beta[2]}  />
-                <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+              <div className="gallery-box d-flex justify-content-center align-items-center p-2 gap-1 my-4 br-1">
+                <div className="d-flex overflow-x h-scroll overflow-y view-gallery gap-2">
+                  <SquareImg prior={true} alt='Photo' src={horabondi_beta[0]}  />
+                  <SquareImg prior={true} alt='Photo' src={horabondi_beta[1]}  />
+                  <SquareImg prior={true} alt='Photo' src={horabondi_beta[2]}  />
+                </div>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
+
               <div>
               <Lightbox
                 open={open}

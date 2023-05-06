@@ -24,40 +24,36 @@ export default function Privacy() {
           <h2>INFORMATION USAGE</h2>
             <article className='mb-5'>
               <p className='mt-2'>
-                My website not require any previous register to use it, still there, would be good if you read 
-                what data store you browser, and what data comes out when you fill and send a form, change styles, make any payment.
+                My website not require any previous register to use it, still there, would be good if you read what data store your browser, and what data comes out when you fill and send a form, change styles, make any payment.
               </p>
             </article>
             <article className='mb-5 lh-1'>
                 <h3 className='mb-2'>FORMS AND DATA SUBMITED</h3>
                 <p>
-                    Contact form will be send only if you fill al the fields, i recommend make shure that check all information, 
-                    and check that you agree to terms and conditions.
+                  Contact form will be send only if you fill all the fields, I recommend that you check all the information well, and check that you agree to terms and conditions.
                 </p>
                 <p>
-                    All that information goes for a server that comsumes external service so i can read your mail, i will not save
-                    your mail, name or message you will send me, all that will keep in mailbox.
+                  All that information goes for a server that consumes external service so I can read your mail, I will not save your mail, name or message you will send me, all that will keep in mailbox.
                 </p>
             </article>
             <article className='mb-5'>
                 <h3 className='mb-2'>LOCAL DATA</h3>
                 <ul className='ps-4'>
                   <li>Save website preferences, such as favorites, font size, and theme.</li>
-                  <li>Cookies for analytics, mail an payment services.</li>
-                  <li>Text on your device's clipboard in case of copying mail or other data indexing any sharing function</li>
+                  <li>Cookies for analytics, mail a payment services.</li>
+                  <li>Text on your device's clipboard in case of copying mail or other data indexing any sharing function.</li>
               </ul>
             </article>
             <article className='mb-5 lh-1'>
                 <h3 className='mb-2'>PAYMENTS</h3>
                 <p>
-                    If you select payment preference, some browsers save payments methods and form fields, my website is not responsable of 
-                    the way browser works.
+                  If you select payment preference, some browsers save payments methods and form fields, my website is not responsible of the way browser works.
                 </p>
                 <p>
-                    By other way, certain payments links will send you to that platforms and maybe save cookies, again my website is not responsable of that.
+                  By other way, certain payments links will send you to that platforms and maybe save cookies, again my website is not responsible of that.
                 </p>
                 <p>
-                    If you have any other concern you can tell me, just go to <Link href="/contact" className='cyan-0'>Contact</Link> section.
+                  If you have any other concern you can tell me, just go to <Link href="/contact" className='cyan-0'>Contact</Link> section.
                 </p>
             </article>
             </section>

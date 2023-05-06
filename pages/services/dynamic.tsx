@@ -13,8 +13,7 @@ export default function Dynamic() {
             <MainDesc title='Dynamic Web Development'>
               <article className='mt-5 lh-1'>
                 <p>
-                Maybe you want more than a Static website or Landing page, if thats the case, this package include a all interactivity layer,
-                 if you or you enterprise already have an backend development but need to perform frontend, this package is for you.
+                  Maybe you want more than a Static website or Landing page, if that’s the case, this package includes an all interactivity layer, if you or your enterprise already have a backend development but need to perform frontend, this package is for you.
                 </p>
               </article>
             </MainDesc>
@@ -31,31 +30,31 @@ export default function Dynamic() {
                     <p>Simple interactivity website, one page, Vanilla JavaScript.</p>
                     <p className='mb-1'><b>Usecases: </b></p>
                     <ul>
-                      <li>Promotion clock sites</li>
-                      <li>Exposition deta for your API REST service</li>
-                      <li>Create, Read, Update and Delete Funcionalitiy to your service</li>
+                      <li>Promotion clock sites.</li>
+                      <li>Exposition data for your API REST service.</li>
+                      <li>Create, Read, Update and Delete Functionality to your service.</li>
                     </ul>
                   </div>
               </ServiceCard>
               <ServiceCard alt='Medium Package' title='Medium Package' image='https://cristian021195.github.io/portfolio/img/others/static-med.svg'>
                   <div className='lh-1'>
-                    <p>Frontend Projec, using library, for medium to large projects, generally no SEO frendly</p>
-                    <p className='mb-1'><b>Usecases: </b></p>
+                    <p>Frontend Project, using library, for medium to large projects, generally no SEO friendly.</p>
+                    <p className='mb-1'><b>Use cases: </b></p>
                     <ul>
-                      <li>Large web aplications</li>
-                      <li>Exposition deta for your API REST service</li>
-                      <li>Create, Read, Update and Delete Funcionalitiy to your service</li>
+                      <li>Large web applications</li>
+                      <li>Exposition data for your API REST service.</li>
+                      <li>Create, Read, Update and Delete Functionality to your service.</li>
                     </ul>
                   </div>
               </ServiceCard>
               <ServiceCard alt='Pro Package' title='Pro Package' image='https://cristian021195.github.io/portfolio/img/others/static-pro.svg'>
                   <div className='lh-1'>
-                    <p>Frondend Project, using Frondend Frameworks, SEO Frendly</p>
+                    <p>Frontend Project, using Frontend Frameworks, SEO Friendly</p>
                     <ul>
-                      <li>Large web aplications for your public and clients</li>
-                      <li>Exposition deta for your API REST service</li>
-                      <li>Create, Read, Update and Delete Funcionalitiy to your service</li>
-                      <li>Server Side Generation, High performance website, SEO friendly</li>
+                      <li>Large web applications for your public and clients.</li>
+                      <li>Exposition data for your API REST service.</li>
+                      <li>Create, Read, Update and Delete Functionality to your service.</li>
+                      <li>Server Side Generation, High performance website, SEO friendly.</li>
                     </ul>
                   </div>
               </ServiceCard>

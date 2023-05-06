@@ -7,16 +7,14 @@ import { services_images } from '../../myassets';
 
 export default function apiRest() {
   return (
-    <MainLayout title='Api Rest Application'>
+    <MainLayout title='Api Rest App'>
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Api Rest Application'>
             <article className='mt-5 lh-1'>
-                <p>As a web designer's my job is less about using code and tools to bring a website to life.</p>
-                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge 
-                  and tools to create mockups, prototyping, and templates when designing a site. </p>
-                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending
-                  A better looking will give you more seriousness, and professionalism, cliets love it</p>
+                <p>A RESTful API allows developers to create web applications that can interact with other applications or services.</p>
+                <p>The major advantage of a RESTful API is its flexibility and scalability.</p>
+                <p>This way you can use this RESTful API independent of the device, (Web Browsers, Mobile or Desktop Apps)</p>
               </article>
             </MainDesc>
           </div>

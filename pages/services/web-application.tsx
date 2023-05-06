@@ -12,11 +12,8 @@ export default function Dynamic() {
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Web Application'>
               <article className='mt-5 lh-1'>
-                <p>As a web designer's my job is less about using code and tools to bring a website to life.</p>
-                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge 
-                  and tools to create mockups, prototyping, and templates when designing a site. </p>
-                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending
-                  A better looking will give you more seriousness, and professionalism, cliets love it</p>
+                <p>A Web Application is basically a software program that is designed to be accessed and used through a web browser. Are typically more complex than websites, often requiring a database and server-side scripting to function</p>
+                <p>They are also designed to be responsive and provide a smooth user experience, similar to a desktop application.</p>
               </article>
             </MainDesc>
           </div>
@@ -36,7 +33,7 @@ export default function Dynamic() {
               <ServiceCard title='Premium Plan' alt='Medium Plan' image='https://cristian021195.github.io/portfolio/img/others/full-app.svg'>
                   <div className='lh-1'>
                     <p>It is the complete web application, it includes everything that the previous plans and services have.</p>
-                    <p>many meetings are necessary to define the requirements of this project</p>
+                    <p>many meetings are necessary to define the requirements of this Project.</p>
                   </div>
               </ServiceCard>
             </section>            

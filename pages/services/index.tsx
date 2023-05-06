@@ -12,8 +12,9 @@ export default function Services() {
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Services'>
               <article className='lh-1 mt-5'>
-              <p>This section will give you main information of what you probably need, any of the selected services will have and meeting with you to 
-                set the bases of your project</p>
+              <p>
+                This section will give you main information of what you probably need, any of the selected services will have and meeting with you to set the bases of your project.
+              </p>
               </article>              
             </MainDesc>
           </div>
@@ -31,25 +32,25 @@ export default function Services() {
             <ServiceContainer prior={true}
               src={services_images.logos}
               title='Logos & Logo Animations'
-              desc='Bring life to you already existing projects, an Logo gives you a strong first impression and is memorable. Animations makes people realize that is hard work in background and details matters. A brand means everything for you enterprise.'
+              desc='Bring life to you already existing projects, a Logo gives you a strong first impression and is memorable. Animations makes people realize that is hard work in background and details matters. A brand means everything for your enterprise.'
               orientation='right' link='logos-animation-brand'
             />
             <ServiceContainer
               src={services_images.statics}
               title='Static Web development'
-              desc='Ocasionally you might only want an informative site, no registratión of clients, shopping cart, only share information, like special events, conecterts, presentations. This package include the all design process you only select the time you want the site on the web.'
+              desc='Occasionally you might only want an informative site, no registration of clients, shopping cart, only share information, like special events, concerts, presentations. This package includes the all design process you only select the time you want the site on the web.'
               orientation='left' link='static'
             />
             <ServiceContainer
               src={services_images.dynamic}
               title='Dynamic Web Development'
-              desc='Maybe you want more than a Static website or Landing page, if thats the case, this package include a all interactivity layer, if you or you enterprise already have an backend development but need to perform frontend, this package is for you.'
+              desc='Maybe you want more than a Static website or Landing page, if that’s the case, this package includes an all interactivity layer, if you or your enterprise already have a backend development but need to perform frontend, this package is for you.'
               orientation='right' link='dynamic'
             />            
             <ServiceContainer
               src={services_images.wordpress}
               title='Wordpress'
-              desc='Include all the basics, manage of users and administrators, templates, custom designs, and pluggins instalation and configuration'
+              desc='Include all the basics, user and administrator management, templates, custom designs, and plugins installation and configuration.'
               orientation='left' link='wordpress'
             />
             <ServiceContainer
@@ -61,13 +62,13 @@ export default function Services() {
             <ServiceContainer
               src={services_images.apirest}
               title='Api Rest Application'
-              desc='In case that you already have you frontend (mobile or web), i can provide you an Api Rest service for you to consume or manage data.'
+              desc='In case that you already have your frontend (mobile or web), I can provide you an Api Rest service for you to consume or manage data.'
               orientation='left' link='api-rest'
             />
             <ServiceContainer
               src={services_images.webapp}
               title='Web Application'
-              desc='This is a all Full Stack Aplication, it depends of your project or idea, the manage of server and database, and an according frontend, i require to have a series of meetings an a project contract to settle the bases.'
+              desc='This is an all Full Stack Application, it depends of your project or idea, server and database management, and an according frontend, I require to have a series of meetings and a project contract to settle the bases.'
               orientation='right' link='web-application'
             />
           </div>

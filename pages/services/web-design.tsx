@@ -13,10 +13,8 @@ export default function WebDesign() {
             <MainDesc title='Web & Mail Design'>
               <article className='mt-5 lh-1'>
                 <p>As a web designer's my job is less about using code and tools to bring a website to life.</p>
-                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge 
-                  and tools to create mockups, prototyping, and templates when designing a site. </p>
-                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending
-                  A better looking will give you more seriousness, and professionalism, cliets love it</p>
+                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge and tools to create mockups, prototyping, and templates when designing a site.</p>
+                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending A better looking will give you more seriousness, and professionalism, clients love it</p>
               </article>
             </MainDesc>
           </div>
@@ -29,16 +27,16 @@ export default function WebDesign() {
               <ServiceCard alt='Web Design' title='Web Design' 
                  image='https://cristian021195.github.io/portfolio/img/others/desktop-layout.svg'>
                   <div className='lh-1'>
-                    <p>Any website should have an estructure, something that defines where you want each element without giving headaches to those who browser in</p>
-                    <p>If you already have a website but feeling inconfrontable this service is for you.</p>
-                    <p>I use Figma to make designs, the service i will give you is the project an simple assets like preview</p>
+                    <p>Any website should have a structure, something that defines where you want each element without giving headaches to those who browser in.</p>
+                    <p>If you already have a website but feeling confrontable this service is for you.</p>
+                    <p>I use Figma to make designs, the service I will give you is the project a simple asset like preview</p>
                   </div>
               </ServiceCard>
               <ServiceCard alt='Mail image' title='Mail'>
                   <div className='lh-1'>
-                    <p>This service normally hire people who already have a website, and want to expand the comunication with their clients</p>
-                    <p>I design making mockups, then pass to html code with styles and any images you want making look proffesional not like spaming mails</p>
-                    <p>I use Figma to make designs, the service i will give you is the project an simple assets like preview</p>
+                    <p>This service normally hires people who already have a website, and want to expand the communication with their clients.</p>
+                    <p>I design making mockups, then pass to html code with styles and any images you want making look professional not like spamming mails</p>
+                    <p>I use Sigma to make designs, the service I will give you is the project a simple asset like preview</p>
                   </div>
               </ServiceCard>
             </section>            

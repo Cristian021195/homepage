@@ -20,12 +20,12 @@ export default function Home() {
                   </div>
                   <div id="caja4" className="p-3">
                       <h2 className='fs-2'>Hello there, I'm Cristian.</h2>
-                      <p className='my-4 fs-1'>I'm a web designer and developer. </p>
+                      <p className='my-4 fs-1'>I'm a web designer and developer.</p>
                       <p className='mb-4'>
-                      Graduated from National University of Tucumán, Argentina. Since then, i've working hard improving and adopting new web technologies to get the best performance in any project.
+                      Graduated from National University of Tucumán, Argentina. Since then, I’ve working hard improving and adopting new web technologies to get the best performance in any project.
                       </p>
                       <a href='https://www.linkedin.com/in/cristian021195' target='_blank' className='btn bg-blue-0 p-2'>Linkedin</a>
-                      <button className='btn bg-pink-0 p-2 ms-4' onClick={(e:any)=>{
+                      <button type='button' className='btn bg-pink-0 p-2 ms-4' onClick={(e:any)=>{
                         if(copiarTexto('cristiangramajo015@gmail.com')){
                           e.target.textContent = 'Copy Mail, copied!';
                         }else{

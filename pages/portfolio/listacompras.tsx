@@ -16,13 +16,11 @@ export default function ListaCompras() { // yarn remove react-grid-gallery
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='ListaCompras'>
-              <div>
-              <p className=''>
-              This application was made for a single personal purpose, sometimes I just need a simple 
-              application to have control of my purchases in the supermarket, without having to fill the entire screen with advertising.<br /><br />
-              <br />
-              <i><b>Application delivered time: </b>1 week</i><br /></p>
-              </div>
+              <article className="mt-5 lh-1">
+                <p>This application was made for a single personal purpose, sometimes I just need a simple 
+                application to have control of my purchases in the supermarket, without having to fill the entire screen with advertising.</p>
+                <i><b>Application delivered time: </b>1 week</i><br />
+              </article>
               <div className='mt-5'>
                 <a className="btn p-2 bg-pink-0" target='_blank' href='https://listacompras-omega.vercel.app/'>¡Try It!</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/compras'>Go to repository</a>
@@ -36,12 +34,15 @@ export default function ListaCompras() { // yarn remove react-grid-gallery
                 <h3>Gallery</h3>
               </div>
               
-              <div className="d-flex overflow-x h-scroll p-2 my-4 view-gallery br-1">
+              <div className="gallery-box d-flex justify-content-center align-items-center p-2 gap-1 my-4 br-1">
+                <div className="d-flex overflow-x h-scroll overflow-y view-gallery gap-2">
                 <SquareImg prior={true} alt='Photo' src={listacompras[2]}  />
                 <SquareImg prior={true} alt='Photo' src={listacompras[1]}  />
                 <SquareImg prior={true} alt='Photo' src={listacompras[0]}  />
-                <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                </div>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
+
               <div>
               <Lightbox
                 open={open}

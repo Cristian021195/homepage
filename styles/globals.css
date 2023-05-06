@@ -228,15 +228,15 @@ input[type="text"],input[type="email"], textarea{
   outline: 1px solid red;
 }
 
-.view-gallery{
+.view-gallery{ 
   transition: all 0.25s;
 }
-.view-gallery .btn{display: none;}
-.view-gallery:hover .btn{
+.gallery-box .btn{display: none;}
+.gallery-box:hover .btn{
   display: block;
 }
 
-.view-gallery:hover{
+.gallery-box:hover{
   background-color: rgba(0, 0, 0, .05);
   /*background: repeating-linear-gradient(
   45deg,

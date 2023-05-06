@@ -14,8 +14,8 @@ export default function Contact() {
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Contact me!'>
               <article className='lh-1 mt-5'>
-              <p>You can contact me by many ways. I'm acttualy in my residense country Argentina (GTM-3), i try to reply as soon as posible your partilcar doubts. </p>
-              <p>If you want to know more about me, you can follow me at Facebook or Instagram, in the near future i will have a personal blog to share my thougts and future projects.</p>
+              <p>You can contact me by many ways. I'm actually in my residence country Argentina (GTM-3), I try to reply as soon as possible your particular doubts.</p>
+              <p>If you want to know more about me, you can follow me at Facebook or Instagram, in the near future I will have a personal blog to share my thoughts and future projects.</p>
               </article>
             </MainDesc>
           </div>
@@ -27,7 +27,7 @@ export default function Contact() {
             <div className="row br-3">
             <div className="col-md-6 p-4">
               <h2>Get in Touch</h2>
-              <p>You musn't doubt, i want to start a prokect with you!</p> <br />
+              <p>I want to start your project!</p> <br />
               <form className='d-flex flex-wrap gap-5'>
                 <label htmlFor="name">Name: 
                   <input className='br-1 p-2 bg-white-0 boder-cyan-2' id="name" name="name" type="text" placeholder='Enter your name' required maxLength={50}/>
@@ -71,10 +71,10 @@ export default function Contact() {
                 <a href='https://www.instagram.com/cristiangramajo015' target='_blank' className='btn bg-pink-1 p-2'>Instagram</a>
               </div>
               <br />
-              <h3>Share with others</h3>
+              <h3>Share with other people</h3>
               <div className='d-flex flex-wrap gap-2 my-4'>
-                <button className='btn bg-red-0 p-2' onClick={()=>compartir('Cristian Gramajo','He is a web developer, he makes good jobs you should contact him','https://cristian021195.github.io/portfolio/#contacto')}>Share</button>
-                <button className='btn bg-pink-1 p-2' onClick={(e:any)=>{
+                <button type='button' className='btn bg-red-0 p-2' onClick={()=>compartir('Cristian Gramajo','He is a web developer, he makes good jobs you should contact him','https://cristian021195.github.io/portfolio/#contacto')}>Share</button>
+                <button type='button' className='btn bg-pink-1 p-2' onClick={(e:any)=>{
                   if(copiarTexto('cristiangramajo015@gmail.com')){
                     e.target.textContent = 'Copy Mail, copied!';
                   }else{
@@ -83,13 +83,6 @@ export default function Contact() {
                 }}>Copy Mail</button>
               </div>
               <br />
-              <h3>Working Information</h3>
-              <ul className='p-2 ps-4'>
-                <li><b>Tax Code: </b>20393567008</li>
-                <li><b>Country of Residence: </b>Argentina (GTM-3)</li>
-                <li><b>Tax Code: </b>20393567008</li>
-              </ul>
-              <br />
             </div>
             </div>
           </div>
@@ -97,3 +90,14 @@ export default function Contact() {
     </MainLayout>
   ) // https://www.upwork.com/freelancers/~017265291f06e31933
 }
+/*
+
+<h3>Working Information</h3>
+              <ul className='p-2 ps-4'>
+                <li><b>Tax Code: </b>20393567008</li>
+                <li><b>Country of Residence: </b>Argentina (GTM-3)</li>
+                <li><b>Tax Code: </b>20393567008</li>
+              </ul>
+              <br />
+
+*/
