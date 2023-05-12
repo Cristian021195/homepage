@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/.unlighthouse
 .pnp.js
 
 # testing

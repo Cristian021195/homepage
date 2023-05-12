@@ -18,5 +18,8 @@
     "react-dom": "18.2.0",
     "typescript": "5.0.4",
     "yet-another-react-lightbox": "^3.5.3"
+  },
+  "devDependencies": {
+    "puppeteer": "^20.1.2"
   }
 }

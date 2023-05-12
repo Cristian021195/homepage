@@ -64,8 +64,7 @@ export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMet
             <meta name="theme-color" content="#00838F" />
             <link rel="icon" href="/logos/logo-15.svg" />
             <link rel="icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml"/>
-            <link rel="apple-touch-icon" href="/logos/logo-15.svg" />
-            
+            <link rel="apple-touch-icon" href="/logos/logo-15.svg" />            
             <link rel="mask-icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml" color="#00838F" />
             
         </Head>

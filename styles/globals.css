@@ -317,7 +317,7 @@ input[type="text"],input[type="email"], textarea{
   border-color: transparent transparent var(--cyan-2);
 }
 
-.accordion-off{
+/*.accordion-off{
   position: relative;
   height: 0;
   overflow: hidden!important;
@@ -330,13 +330,82 @@ input[type="text"],input[type="email"], textarea{
   transition: 0.4s;
   height: 20em;
   padding: 0.5em;
-}
+}*/
 .contact-form{
   border-left: 1em solid rgb(229, 115, 115,0.4);
   border-right: 1em solid rgb(144, 202, 249,0.4);
   border-bottom: 1em solid rgb(33, 150, 243,0.4);
   border-top: 1em solid rgb(243, 184, 129,0.4);
   border-radius:0.35em;
+}
+
+/* Hoverdeon */
+.h-fold-3 {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms;
+}
+.hfold{
+  position: relative;
+  text-align: start;
+}
+.hfold h4{
+  padding-right: 1em;
+}
+
+.h-fold-3 > div {
+  overflow: hidden;
+}  
+.hfold:hover .h-fold-3{
+  grid-template-rows: 1fr;
+}
+.hfold small{
+  font-size: 0.4em;
+  font-style: italic;
+}
+.hfold span {
+  position: absolute;
+  margin-left: 0.4em;
+  top: 0em;
+  right: 0;
+  transition: transform .3s;
+}
+.hfold:hover span{
+  transform: rotate(180deg);
+}
+.hfold:hover small::after{
+  content: 'focus out to close';
+}
+
+/*#checkmenu:checked ~ p{white-space: initial; width: auto; overflow: hidden; text-overflow: ellipsis;}
+/*.accordion-off{
+  position: relative;
+  height: 0;
+  overflow: hidden!important;
+  transition: 0.4s;
+  overflow-y: auto;
+}
+
+.accordion-on{
+  overflow: hidden!important;
+  transition: 0.4s;
+  height: 20em;
+  padding: 0.5em;
+}*/
+
+nav{
+  position: relative;
+  height: 0;
+  overflow: hidden!important;
+  transition: 0.4s;
+  overflow-y: auto;
+}
+
+#checkmenu:checked ~ nav{
+  overflow: hidden!important;
+  transition: 0.4s;
+  height: 20em;
+  padding: 0.5em;
 }
 
 /* Animaciones */
