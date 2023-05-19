@@ -62,10 +62,10 @@ export const MainLayout = ({title = 'Portfolio', strech='strech', children}:IMet
             <meta name="msapplication-TileColor" content="#00838F" />
             <meta name="msapplication-tap-highlight" content="no" />
             <meta name="theme-color" content="#00838F" />
-            <link rel="icon" href="/logos/logo-15.svg" />
-            <link rel="icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml"/>
-            <link rel="apple-touch-icon" href="/logos/logo-15.svg" />            
-            <link rel="mask-icon" href="/logos/logo-15.svg" sizes="any" type="image/svg+xml" color="#00838F" />
+            <link rel="icon" href="https://cristian021195.github.io/portfolio/img/logos/c-color-logo-alt.svg" />
+            <link rel="icon" href="https://cristian021195.github.io/portfolio/img/logos/c-color-logo-alt.svg" sizes="any" type="image/svg+xml"/>
+            <link rel="apple-touch-icon" href="https://cristian021195.github.io/portfolio/img/logos/c-color-logo-alt.svg" />            
+            <link rel="mask-icon" href="https://cristian021195.github.io/portfolio/img/logos/c-color-logo-alt.svg" sizes="any" type="image/svg+xml" color="#00838F" />
             
         </Head>
         <main className={myFont.className + ' container-fluid'}>

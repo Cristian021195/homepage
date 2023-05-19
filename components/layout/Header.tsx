@@ -13,7 +13,7 @@ export const Header = () => {
       <header className={`${myFont.className} p-4 d-flex align-items-center`}>
           <div className='d-flex align-content-center me-5' id='top'>
               <Link href="/" legacyBehavior>
-                <Image alt='Logo' src={'/logos/logo-15.svg'} priority={true} width={36} height={36}/>
+                <Image alt='Logo' src={'https://cristian021195.github.io/portfolio/img/logos/c-color-logo-alt.svg'} priority={true} width={36} height={36}/>
               </Link>
           </div>
           <ul className='d-none d-md-flex ms-4'>
