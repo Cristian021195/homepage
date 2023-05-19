@@ -30,7 +30,7 @@ export default function Faq() {
                   <p>Yes, the common ones (USDT, DAI, USDC, Bitcoin, Ethereum)</p>
                 </AcordeonHover>
                 <AcordeonHover title="There's any other way to contact you?">
-                  <p>No, only by the <Link href='/contact' legacyBehavior><a className='text-underline cyan-0'>Contact</a></Link>&nbsp; section.</p>
+                  <p>No, only by the <Link href='/contact' legacyBehavior><a className='text-underline cyan-0'>Contact</a></Link>&nbsp;section.</p>
                 </AcordeonHover>
                 <AcordeonHover title='If buy you a website or web application, you will use it for your portfolio?'>
                   <p>Yes, it gives you visibility too, but if you need keep your web application private just tell me.</p>
@@ -42,7 +42,7 @@ export default function Faq() {
                   <p>No, but the ones in my <Link href='/porfolio' legacyBehavior><a className='text-underline cyan-0'>Porfolio</a></Link> except the websites projects, you can use it if you need it.</p>
                 </AcordeonHover>
                 <AcordeonHover title='logo demos are SVG format?'>
-                  <p>No, demos are delivered in webp or jpg format / jpeg format only.</p>
+                  <p>No, demos are delivered in webp, jpg/jpeg, png format only.</p>
                 </AcordeonHover>
                 <AcordeonHover title='If I buy Lottie Animated logos, you give the the file or the project file?'>
                   <p>Only the file, but if you need the project just tell me. There's many software out there, and I only create it with Adobe After Effects.</p>
@@ -51,7 +51,7 @@ export default function Faq() {
                   <p>Yes, anyway always going to contact with you if I have any doubt about a word or sentence.</p>
                 </AcordeonHover>
                 <AcordeonHover title='You Make custom fonts for websites, WhatsApp / telegram / social media bots?'>
-                  <p>No, I use free fonts and only link to your social media, but in the near future I will offer that service too. Check
+                  <p>No, I use free fonts and only link to your social media, but in the near future I will offer that service too. Check 
                      <Link href='/services' className='text-underline cyan-0'>Services</Link> to stay up to date.
                   </p>
                 </AcordeonHover>
@@ -65,7 +65,7 @@ export default function Faq() {
                   <p>No, I just put them on your website.</p>
                 </AcordeonHover>
                 <AcordeonHover title='Website maintenance is free?'>
-                  <p>No, we define your project requirements and build it, if you need any changes or see something missing after the delivered time it's an extra service</p>
+                  <p>No, we define your project requirements and build it, if you need any changes or see something missing after the delivered time it's an extra service.</p>
                 </AcordeonHover>
             </div>
         </NoHome>

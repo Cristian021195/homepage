@@ -36,7 +36,7 @@ export default function WebDesign() {
                   <div className='lh-1'>
                     <p>This service normally hires people who already have a website, and want to expand the communication with their clients.</p>
                     <p>I design making mockups, then pass to html code with styles and any images you want making look professional not like spamming mails</p>
-                    <p>I use Sigma to make designs, the service I will give you is the project a simple asset like preview</p>
+                    <p>I use Figma to make designs, the service I will give you is the project a simple asset like preview</p>
                   </div>
               </ServiceCard>
             </section>            
