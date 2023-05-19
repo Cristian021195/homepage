@@ -51,8 +51,7 @@ export default function Faq() {
                   <p>Yes, anyway always going to contact with you if I have any doubt about a word or sentence.</p>
                 </AcordeonHover>
                 <AcordeonHover title='You Make custom fonts for websites, WhatsApp / telegram / social media bots?'>
-                  <p>No, I use free fonts and only link to your social media, but in the near future I will offer that service too. Check &nbsp;
-                     <Link href='/services' className='text-underline cyan-0'>Services</Link> to stay up to date.
+                  <p>No, I use free fonts and only link to your social media, but in the near future I will offer that service too. Check <Link href='/services' className='text-underline cyan-0'>Services</Link> to stay up to date.
                   </p>
                 </AcordeonHover>
                 <AcordeonHover title='You only work with Upwork?'>
