@@ -28,7 +28,7 @@ export default function Romano() { // yarn remove react-grid-gallery
                 <i><b>Application delivered time: </b>2 weeks</i><br />
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0" target='_blank' href='https://romano-bar.netlify.app/'>¡Try It!</a>
+                <a className="btn p-2 bg-pink-0" target='_blank' href='https://romano-bar.netlify.app/'>Try It</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/landing-cute'>Go to repository</a>
               </div>
             </MainDesc>
@@ -46,7 +46,7 @@ export default function Romano() { // yarn remove react-grid-gallery
                   <SquareImg prior={true} alt='Photo' src={romano[1]}/>
                   <SquareImg prior={true} alt='Photo' src={romano[2]}/>
                 </div>
-                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>See Pictures</button>
               </div>
 
               <div>
@@ -61,11 +61,16 @@ export default function Romano() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Framework: </b>Astro</li>
-                  <li><b>Programing Languajes: </b>JavaScript + HTML + CSS</li>
-                  <li><b>Database Engine: </b>Mysql</li>
-                  <li><b>Deploy Platform: </b>Netlify</li>
-                  <li><b>Additional Packages: </b>Animate.css</li>
+                  <li><b>Framework: </b>
+                   <span translate='no'>Astro</span></li>
+                  <li><b>Programing Languajes: </b>
+                   <span translate='no'>JavaScript + HTML + CSS</span></li>
+                  <li><b>Database Engine: </b>
+                   <span translate='no'>Mysql</span></li>
+                  <li><b>Deploy Platform: </b>
+                   <span translate='no'>Netlify</span></li>
+                  <li><b>Additional Packages: </b>
+                   <span translate='no'>Animate.css</span></li>
                 </ul>
               </div>
             </section>            

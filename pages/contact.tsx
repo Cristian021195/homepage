@@ -58,17 +58,17 @@ export default function Contact() {
               </div>
               <h3>Other ways to contact with me</h3>
               <div className='d-flex flex-wrap gap-2 my-4'>
-                <a href='https://www.linkedin.com/in/cristian021195' target='_blank' className='btn bg-blue-0 p-2'>Linkedin</a>
-                <a href='https://www.upwork.com/freelancers/~017265291f06e31933' target='_blank' className='btn bg-green-1 p-2'>Upwork</a>
-                <a href='https://wa.me/543865332311?phone=543865332311&text=Hola%2C+tengo+una+consulta+sobre+tus+servicios.' target='_blank' className='btn bg-green-0 p-2'>Whatsapp (Only Bussiness)</a>
+                <a translate='no' href='https://www.linkedin.com/in/cristian021195' target='_blank' className='btn bg-blue-0 p-2'>Linkedin</a>
+                <a translate='no' href='https://www.upwork.com/freelancers/~017265291f06e31933' target='_blank' className='btn bg-green-1 p-2'>Upwork</a>
+                <a translate='no' href='https://wa.me/543865332311?phone=543865332311&text=Hola%2C+tengo+una+consulta+sobre+tus+servicios.' target='_blank' className='btn bg-green-0 p-2'>Whatsapp (Only Bussiness)</a>
                 <a href="https://drive.google.com/file/d/1-bbig7kMAoD5GKT3uNpecqs6MCZqSIwO/view?usp=share_link" target="_blank" rel="noopener" className="btn p-2 bg-lblue-0">Resume</a>
                 <a href="https://drive.google.com/file/d/12J3lBtxtGnumXmhQArdV0xGZigtWchUl/view?usp=share_link" target="_blank" rel="noopener" className="btn p-2 bg-lblue-0">Curriculum</a>
               </div>
               <br />
               <h3>Social media where you can find me</h3>
               <div className='d-flex flex-wrap gap-2 my-4'>
-                <a href='https://www.facebook.com/cristianismael.gramajo' target='_blank' className='btn bg-blue-0 p-2'>Facebook</a>
-                <a href='https://www.instagram.com/cristiangramajo015' target='_blank' className='btn bg-pink-1 p-2'>Instagram</a>
+                <a translate='no' href='https://www.facebook.com/cristianismael.gramajo' target='_blank' className='btn bg-blue-0 p-2'>Facebook</a>
+                <a translate='no' href='https://www.instagram.com/cristiangramajo015' target='_blank' className='btn bg-pink-1 p-2'>Instagram</a>
               </div>
               <br />
               <h3>Share with other people</h3>

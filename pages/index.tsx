@@ -24,14 +24,14 @@ export default function Home() {
                       <p className='mb-4'>
                       Graduated from National University of Tucumán, Argentina. Since then, I’ve working hard improving and adopting new web technologies to get the best performance in any project.
                       </p>
-                      <a href='https://www.linkedin.com/in/cristian021195' target='_blank' className='btn bg-blue-0 p-2'>Linkedin</a>
+                      <a href='https://www.linkedin.com/in/cristian021195' target='_blank' className='btn bg-blue-0 p-2' translate='no'>Linkedin</a>
                       <button type='button' className='btn bg-pink-0 p-2 ms-4' onClick={(e:any)=>{
                         if(copiarTexto('cristiangramajo015@gmail.com')){
                           e.target.textContent = 'Copy Mail, copied!';
                         }else{
                           e.target.textContent = 'Copy Mail, error to copy!';
                         }
-                      }}>Mail Me!</button>
+                      }}>Mail Me</button>
                   </div>
               </div>
             </section>

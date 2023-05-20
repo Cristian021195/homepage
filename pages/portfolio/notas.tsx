@@ -22,7 +22,7 @@ export default function Notas() { // yarn remove react-grid-gallery
               <i><b>Application delivered time: </b>2 days</i><br />
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://cristian021195.github.io/notas/'>¡Try It!</a>
+                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://cristian021195.github.io/notas/'>Try It</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/notas'>Go to repository</a>
               </div>
             </MainDesc>
@@ -40,7 +40,7 @@ export default function Notas() { // yarn remove react-grid-gallery
                   <SquareImg prior={true} alt='Photo' src={notas[1]}  />
                   <SquareImg prior={true} alt='Photo' src={notas[2]}  />
                 </div>
-                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>See Pictures</button>
               </div>
 
               <div>
@@ -55,10 +55,14 @@ export default function Notas() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Programing Languajes: </b>JavaScript + HTML + CSS</li>
-                  <li><b>Database Engine: </b>Indexed Database (client side only)</li>
-                  <li><b>Deploy Platform: </b>Github Pages</li>
-                  <li><b>Additional Packages: </b>Pouch DB, Boostrap 5</li>
+                  <li><b>Programing Languajes: </b>
+                    <span translate="no">JavaScript + HTML + CSS</span></li>
+                  <li><b>Database Engine: </b>
+                    <span translate="no">Indexed Database </span>(client side only)</li>
+                  <li><b>Deploy Platform: </b>
+                    <span translate="no">Github Pages</span></li>
+                  <li><b>Additional Packages: </b>
+                    <span translate="no">Pouch DB, Boostrap 5</span></li>
                 </ul>
               </div>
             </section>            

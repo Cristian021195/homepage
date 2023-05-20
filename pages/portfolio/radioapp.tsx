@@ -22,7 +22,7 @@ export default function RadioApp() { // yarn remove react-grid-gallery
                 <i><b>Application delivered time: </b>2 Days</i><br />
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0" target='_blank' href='https://radio-taupe.vercel.app/'>¡Try It!</a>
+                <a className="btn p-2 bg-pink-0" target='_blank' href='https://radio-taupe.vercel.app/'>Try It</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/radio'>Go to repository</a>
               </div>
             </MainDesc>
@@ -40,7 +40,7 @@ export default function RadioApp() { // yarn remove react-grid-gallery
                   <SquareImg prior={true} alt='Photo' src={radioapp[1]}  />
                   <SquareImg prior={true} alt='Photo' src={radioapp[2]}  />
                 </div>
-                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>See Pictures</button>
               </div>
 
               <div>
@@ -55,11 +55,16 @@ export default function RadioApp() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Library: </b>ReactJS</li>
-                  <li><b>Programing Languajes: </b>JavaScript + HTML + CSS</li>
-                  <li><b>Database Engine: </b>Local Storage (client side)</li>
-                  <li><b>Deploy Platform: </b>Vercel</li>
-                  <li><b>Additional Packages: </b>React Router DOM, uuid</li>
+                  <li><b>Library: </b>
+                   <span translate="no">ReactJS</span></li>
+                  <li><b>Programing Languajes: </b>
+                   <span translate="no">JavaScript + HTML + CSS</span></li>
+                  <li><b>Database Engine: </b>
+                   <span translate="no">Local Storage</span> (client side)</li>
+                  <li><b>Deploy Platform: </b>
+                   <span translate="no">Vercel</span></li>
+                  <li><b>Additional Packages: </b>
+                   <span translate="no">React Router DOM, uuid</span></li>
                 </ul>
               </div>
             </section>            

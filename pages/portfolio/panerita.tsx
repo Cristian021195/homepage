@@ -23,7 +23,7 @@ export default function Panerita() { // yarn remove react-grid-gallery
                 <i><b>Application delivered time: </b>8 months</i>
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://lapanerita.000webhostapp.com/panerita/'>¡Try It!</a>
+                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://lapanerita.000webhostapp.com/panerita/'>Try It</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/panerita'>Go to repository</a>
               </div>
             </MainDesc>
@@ -41,7 +41,7 @@ export default function Panerita() { // yarn remove react-grid-gallery
                   <SquareImg prior={true} alt='Photo' src={panerita[4]}  />
                   <SquareImg prior={true} alt='Photo' src={panerita[2]}  />
                 </div>
-                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>See Pictures</button>
               </div>
 
               <div>
@@ -56,10 +56,14 @@ export default function Panerita() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Programing Languajes: </b>PHP, JavaScript, HTML + CSS</li>
-                  <li><b>Database Engine: </b>MySQL</li>
-                  <li><b>Deploy Platform: </b>Hostinger</li>
-                  <li><b>Additional Packages: </b>mPDF, PageJS, Boostrap 5, CroppieJS</li>
+                  <li><b>Programing Languajes: </b>
+                  <span translate="no">PHP, JavaScript, HTML + CSS</span></li>
+                  <li><b>Database Engine: </b>
+                  <span translate="no">MySQL</span></li>
+                  <li><b>Deploy Platform: </b>
+                  <span translate="no">Hostinger</span></li>
+                  <li><b>Additional Packages: </b>
+                  <span translate="no">mPDF, PageJS, Boostrap 5, CroppieJS</span></li>
                 </ul>
               </div>
             </section>            

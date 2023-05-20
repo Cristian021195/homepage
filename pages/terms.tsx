@@ -45,8 +45,7 @@ export default function Terms() {
                 <h3 className='mb-2'>DATA USAGE</h3>
                 <p>
                 By continuing using this website and functionalities involved in, you must know that your browser Will store text information that is relevant to certain functions of website.
-To more information about this visit
- <Link href="/privacy" className='cyan-0'>Privacy Policy</Link> section.
+To more information about this visit <Link href="/privacy" className='cyan-0'>Privacy Policy</Link> section.
                 </p>
               </article>
               <article className='mb-5'>
@@ -64,8 +63,8 @@ To more information about this visit
               <article className='mb-5'>
                 <h3 className='mb-2'>LAWS USED IN FREELANCE WORK PLATFORMS</h3>
                 <p>
-                In case of having used this website to obtain information about services, and contract it by third-party platforms like <a href='https://www.upwork.com/' target='_blank' className='cyan-0'>Upwork</a>&nbsp;, 
-                <a href='https://freelancer.com' target='_blank' className='cyan-0'>Freelancer</a>, or any other platform where I’ll work in the future, I disclaim all responsibility for the terms and conditions raised by said platforms.
+                In case of having used this website to obtain information about services, and contract it by third-party platforms like <a href='https://www.upwork.com/' target='_blank' className='cyan-0' translate='no'>Upwork</a>&nbsp;, 
+                <a href='https://freelancer.com' target='_blank' className='cyan-0' translate='no'>Freelancer</a>, or any other platform where I’ll work in the future, I disclaim all responsibility for the terms and conditions raised by said platforms.
                 </p>
               </article> 
               <article className='mb-5'>

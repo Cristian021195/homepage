@@ -24,7 +24,7 @@ export default function Horabondi() { // yarn remove react-grid-gallery
                 <i><b>Application delivered time: </b>3 months</i>
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://horabondi.vercel.app/'>¡Try It!</a>
+                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://horabondi.vercel.app/'>Try It</a>
                 <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/horabondi'>Go to repository</a>
               </div>
             </MainDesc>
@@ -42,7 +42,7 @@ export default function Horabondi() { // yarn remove react-grid-gallery
                     <SquareImg prior={true} alt='Photo' src={horabondi[1]}  />
                     <SquareImg prior={true} alt='Photo' src={horabondi[2]}  />
                 </div>
-                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
+                <button type="button" className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>See Pictures</button>
               </div>
 
               <div>
@@ -57,11 +57,16 @@ export default function Horabondi() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Framework: </b>NextJS</li>
-                  <li><b>Database Engine: </b>MySQL</li>
-                  <li><b>Deploy Platform: </b>Vercel</li>
-                  <li><b>Backend Platform: </b>Railway + PlanetScale</li>
-                  <li><b>Additional Packages: </b>NextAuth</li>
+                  <li><b>Framework: </b>
+                  <span translate="no">NextJS</span></li>
+                  <li><b>Database Engine: </b>
+                  <span translate="no">MySQL</span></li>
+                  <li><b>Deploy Platform: </b>
+                  <span translate="no">Vercel</span></li>
+                  <li><b>Backend Platform: </b>
+                  <span translate="no">Railway + PlanetScale</span></li>
+                  <li><b>Additional Packages: </b>
+                  <span translate="no">NextAuth</span></li>
                   <li><b>Additional Info: </b>Demo service is currently is in sleep mode, if you want test it send me a mail</li>
                 </ul>
               </div>

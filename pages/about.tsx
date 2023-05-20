@@ -17,11 +17,11 @@ export default function About() {
                 <p>If you are here, it's probably because you need a really good website, and definitely I could help you with that.</p>
                 <p>A little reminder it's that for me is not only make you a website or web application, I like to be clear with all my clients at first, they are not paying for the website only, besides they pay for attention, good design, pacification, and orientation.</p>
                 <div className='text-center mt-5'>
-                  <button type='button' className='btn p-2 bg-pink-0' onClick={(e:any)=>{
+                  <button translate='no' type='button' className='btn p-2 bg-pink-0' onClick={(e:any)=>{
                     if(copiarTexto('cristiangramajo015@gmail.com')){
                       e.target.textContent = 'Mail Me!, Copied!';
                     }
-                  }}>Mail Me!</button>
+                  }}>Mail Me</button>
                 </div>
               </article>
             </MainDesc>

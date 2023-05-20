@@ -39,7 +39,7 @@ export default function Faq() {
                   <p>No, it's an extra service.</p>
                 </AcordeonHover>
                 <AcordeonHover title='Can I get logo demos for free?'>
-                  <p>No, but the ones in my <Link href='/porfolio' legacyBehavior><a className='text-underline cyan-0'>Porfolio</a></Link> except the websites projects, you can use it if you need it.</p>
+                  <p>No, but the ones in my <Link href='/porfolio' legacyBehavior><a className='text-underline cyan-0' translate='no'>Porfolio</a></Link> except the websites projects, you can use it if you need it.</p>
                 </AcordeonHover>
                 <AcordeonHover title='logo demos are SVG format?'>
                   <p>No, demos are delivered in webp, jpg/jpeg, png format only.</p>

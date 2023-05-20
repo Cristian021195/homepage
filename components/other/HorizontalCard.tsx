@@ -10,7 +10,7 @@ export const HorizontalCard = ({title='Proyecto',link='/', desc='Descripcion de 
             </div>
             <div>
                 <h3>{title}</h3>
-                <p className='my-3'>{desc}</p>
+                <p translate='no' className='my-3'>{desc}</p>
                 <a href={link} target='_blank' className='btn p-1 bg-dark-2'>Repository</a>
             </div>
         </article>
