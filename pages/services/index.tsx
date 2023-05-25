@@ -13,7 +13,7 @@ export default function Services() {
             <MainDesc title='Services'>
               <article className='lh-1 mt-5'>
               <p>
-                This section will give you main information of what you probably need, any of the selected services will have and meeting with you to set the bases of your project.
+                This section will give you main information of what you probably need, any of the selected services will have a meeting with you to set the bases of your project.
               </p>
               </article>              
             </MainDesc>
