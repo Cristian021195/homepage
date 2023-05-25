@@ -348,6 +348,7 @@ input[type="text"],input[type="email"], textarea{
 .hfold{
   position: relative;
   text-align: start;
+  cursor:pointer;
 }
 .hfold h4{
   padding-right: 1em;
