@@ -28,7 +28,7 @@ export default function Portfolio() {
               <Card prior={true} bgTop='#00838f38' title='Horabondi' desc='Web App for bus schedule and prices' link='/portfolio/horabondi' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi.svg'} maxWidth={240}/>
               <Card prior={true} bgTop='#a14b3240' title='Panerita' desc='Web system for stock, sales, clients, users, and printing analytics' link='/portfolio/panerita' image={'https://cristian021195.github.io/portfolio/img/svg/panerita.svg'} maxWidth={240}/>
               <Card prior={true} bgTop='#ffe98f4f' title='Notas' desc='Note web app offline' link='/portfolio/notas' image={'https://cristian021195.github.io/portfolio/img/svg/notas.svg'} maxWidth={240}/>
-              <Card bgTop='#a6d5fa8c' title='Climap' desc='Weather and Location app' link='/portfolio/climap' image={'https://cristian021195.github.io/portfolio/img/svg/climap.svg'} maxWidth={240}/>
+              <Card bgTop='#a6d5fa8c' title='Climapp' desc='Weather and Location app' link='/portfolio/climapp' image={'https://cristian021195.github.io/portfolio/img/svg/climap.svg'} maxWidth={240}/>
               <Card bgTop='#e6a52e47' title='Romano' desc='Nice web page for a bar' link='/portfolio/romano' image={'https://cristian021195.github.io/portfolio/img/svg/romano.svg'} maxWidth={240}/>
               <Card bgTop='#f1f1f1' title='Escritos' desc='Poems web app' link='/portfolio/escritos' image={'https://cristian021195.github.io/portfolio/img/svg/escritos.svg'} maxWidth={240}/>
               <Card bgTop='#f0629247' title='Colores' desc='Useful web app for take quickly colors' link='/portfolio/colores' image={'https://cristian021195.github.io/portfolio/img/svg/color_wheel.svg'} maxWidth={240}/>

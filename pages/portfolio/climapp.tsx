@@ -12,10 +12,10 @@ import {climap} from '../../myassets'
 export default function Climap() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);
   return (
-    <MainLayout title='Climap'>
+    <MainLayout title='Climapp'>
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
-            <MainDesc title='Climap'>
+            <MainDesc title='Climapp'>
               <article className="mt-5 lh-1">
                 <p>It is a React PWA, with a very simple design, using the React Router library and hosted on Firebase.</p>
                 <p>it makes use of the Openweathermap and Mapbox APIs. Made with React JS, and CSS, this application was made for testing purposes.</p>
@@ -23,8 +23,8 @@ export default function Climap() { // yarn remove react-grid-gallery
                 <i><b>Application delivered time: </b>4 days</i><br />
               </article>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0" target='_blank' href='https://climap-6e45e.web.app/'>Try It</a>
-                <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/climap'>Go to repository</a>
+                <a className="btn p-2 bg-pink-0" target='_blank' href='https://climapp-eight.vercel.app/'>Try It</a>
+                <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/climapp'>Go to repository</a>
               </div>
             </MainDesc>
           </div>
@@ -56,16 +56,16 @@ export default function Climap() { // yarn remove react-grid-gallery
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
                   <li><b>Library: </b>
-                    <span translate="no">ReactJS</span>
+                    <span translate="no">ReactJS, Zustand</span>
                     </li>
                   <li><b>Programing Languajes: </b>
                     <span translate="no">TypeScript + HTML + CSS</span>
                     </li>
                   <li><b>Database Engine: </b>
-                    <span>None, only api consuming data</span>
+                    <span>Only thrid party api</span>
                     </li>
                   <li><b>Deploy Platform: </b>
-                      <span>Firebase Hosting</span>
+                      <span>Vercel</span>
                     </li>
                   <li><b>Additional Packages: </b>
                     <span translate="no">React Mapbox, Openweathermap</span>
