@@ -34,8 +34,7 @@ export default function Portfolio() {
               <Card bgTop='#f0629247' title='Colores' desc='Useful web app for take quickly colors' link='/portfolio/colores' image={'https://cristian021195.github.io/portfolio/img/svg/color_wheel.svg'} maxWidth={240}/>
               <Card bgTop='#ff7f5042' title='ListaCompras' desc='Useful web app for have money control while shopping' link='/portfolio/listacompras' image={'https://cristian021195.github.io/portfolio/img/svg/lista-compras.svg'} maxWidth={240}/>
               <Card bgTop='#ffb6553b' title='Radio App' desc='Web app to listen radio through url resource media' link='/portfolio/radioapp' image={'https://cristian021195.github.io/portfolio/img/svg/radio-app.svg'} maxWidth={240}/>
-              <Card bgTop='#28bf2840' title='HoraBondi (Beta)' desc='Web App for bus schedule and prices' link='/portfolio/horabondi-beta' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi-beta.svg'} maxWidth={240}/>
-
+              <Card bgTop='#ff7f5042' title='Rolling Vet' desc='Web App for vet asistance' link='/portfolio/rolling-vet' image={'https://cristian021195.github.io/portfolio/img/svg/rolling-vet.svg'} maxWidth={240}/>
             </div>
             <h2 className='fs-2 mt-5 p-4'>Logos and Animations</h2>
             <div className="d-flex gap-10 flex-wrap justify-content-center p-2">
@@ -91,6 +90,8 @@ export default function Portfolio() {
                 image='https://cristian021195.github.io/portfolio/img/svg/horabondi.svg' link='https://github.com/Cristian021195/horabondi-backend'/>
               <HorizontalCard title='Escritos API' desc="Node JS + Express" 
                 image='https://cristian021195.github.io/portfolio/img/svg/escritos.svg' link='https://github.com/Cristian021195/escritos-backend'/>
+              <HorizontalCard title='Rolling Vet' desc="Node JS + Express + Mongo" 
+                image='https://cristian021195.github.io/portfolio/img/svg/rolling-vet.svg' link='https://github.com/ProyectoFinal-Rc/RollingVeterinaria-Backend'/>
             </div>
           </div>
       </NoHome>

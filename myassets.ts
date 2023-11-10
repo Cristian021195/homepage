@@ -60,6 +60,11 @@ import pn5 from './public/images/projects/panerita/phone.webp'
 import pn6 from './public/images/projects/panerita/phone-login.webp'
 import pn7 from './public/images/projects/panerita/profile.webp'
 
+import rv1 from './public/images/projects/rolling-vet/roll-vet-1.webp'
+import rv2 from './public/images/projects/rolling-vet/roll-vet-2.webp'
+import rv3 from './public/images/projects/rolling-vet/roll-vet-3.webp'
+import rv4 from './public/images/projects/rolling-vet/roll-vet-4.webp'
+
 import cmain from './public/main.svg'
 import faqmain from './public/faq-main.svg'
 import pmain from './public/portfolio-main.svg'
@@ -76,11 +81,14 @@ import apirest from './public/api-rest-services.svg'
 import polmain from './public/policy-main.svg'
 import error from './public/404.svg'
 
+
+
 export const horabondi = [ hb1,hb2,hb3,hb4,hb5,hb6,hb7,hb8 ];
 export const romano = [ rm1,rm2,rm3,rm4,rm5,rm6,rm7,rm8 ];
 export const horabondi_beta = [ hbb1,hbb2,hbb3,hbb4,hbb5 ];
 export const colores = [ cl1,cl2,cl3 ];
 export const climap = [ cm1,cm2,cm3,cm4 ];
+export const rollvet = [ rv1,rv2, rv3, rv4 ];
 export const escritos = [ es1,es2,es3,es4,es5,es6 ];
 export const notas = [ nt1,nt2,nt3 ];
 export const radioapp = [ ra1,ra2,ra3,ra4,ra5 ];

@@ -13,9 +13,9 @@ export default function About() {
               <article className='lh-1 mt-5'>
                 <p>I'm a Web Designer and Web Programmer with years of experience.</p>
                 <p>I had my degree in National University of Tucumán, Argentina. Besides that, many courses, online practicing and personal projects that made me grow in this work.</p>
-                <p>Since then I’ve been working from small projects to web systems, my strong skills are to reach good looking website, great web performance for any project, and good SEO practices for putting you at the top</p>
+                <p>Since then I’ve been working from small projects to web systems, my strong skills are to reach good looking website, great web performance for any project, and good SEO practices for putting you at the top.</p>
                 <p>If you are here, it's probably because you need a really good website, and definitely I could help you with that.</p>
-                <p>A little reminder it's that for me is not only make you a website or web application, I like to be clear with all my clients at first, they are not paying for the website only, besides they pay for attention, good design, pacification, and orientation.</p>
+                <p>A little reminder it's that for me is not only make you a website or web application, I like to be clear with all my clients at first, they are not paying for the website only, besides they pay for attention, good design, planification, and orientation.</p>
                 <div className='text-center mt-5'>
                   <button translate='no' type='button' className='btn p-2 bg-pink-0' onClick={(e:any)=>{
                     if(copiarTexto('cristiangramajo015@gmail.com')){
