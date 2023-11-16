@@ -4,7 +4,8 @@ import { Card, HorizontalCard } from '@/components/other';
 import Image from 'next/image';
 import { portfolio_main } from '../../myassets';
 import { IconTooltip } from '../../components/other/IconTooltip';
-
+//<IconTooltip img="https://cristian021195.github.io/portfolio/img/svg/horabondi.svg" title='HoraBondi'/>
+//<Card prior={true} bgTop='#00838f38' title='Horabondi' desc='Web App for bus schedule and prices' link='/portfolio/horabondi' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi.svg'} maxWidth={240}/>
 
 export default function Portfolio() {
   return (
@@ -25,7 +26,7 @@ export default function Portfolio() {
           <div className='col-md-10 offset-md-1 py-0 fade-up'>
             <h2 className='fs-2 p-4'>Web Projects</h2>
             <div className="d-flex gap-10 horizontal-sm h-scroll p-2">
-              <Card prior={true} bgTop='#00838f38' title='Horabondi' desc='Web App for bus schedule and prices' link='/portfolio/horabondi' image={'https://cristian021195.github.io/portfolio/img/svg/horabondi.svg'} maxWidth={240}/>
+              
               <Card prior={true} bgTop='#a14b3240' title='Panerita' desc='Web system for stock, sales, clients, users, and printing analytics' link='/portfolio/panerita' image={'https://cristian021195.github.io/portfolio/img/svg/panerita.svg'} maxWidth={240}/>
               <Card prior={true} bgTop='#ffe98f4f' title='Notas' desc='Note web app offline' link='/portfolio/notas' image={'https://cristian021195.github.io/portfolio/img/svg/notas.svg'} maxWidth={240}/>
               <Card bgTop='#a6d5fa8c' title='Climapp' desc='Weather and Location app' link='/portfolio/climapp' image={'https://cristian021195.github.io/portfolio/img/svg/climap.svg'} maxWidth={240}/>
@@ -38,7 +39,7 @@ export default function Portfolio() {
             </div>
             <h2 className='fs-2 mt-5 p-4'>Logos and Animations</h2>
             <div className="d-flex gap-10 flex-wrap justify-content-center p-2">
-                <IconTooltip img="https://cristian021195.github.io/portfolio/img/svg/horabondi.svg" title='HoraBondi'/>
+                
                 <IconTooltip img="https://cristian021195.github.io/portfolio/img/svg/panerita.svg" title='La Panerita'/>
                 <IconTooltip img="https://cristian021195.github.io/portfolio/img/svg/notas.svg" title='Notas'/>
                 <IconTooltip img="https://cristian021195.github.io/portfolio/img/svg/climap.svg" title='Climap'/>
